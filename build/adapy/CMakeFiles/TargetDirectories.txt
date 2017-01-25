@@ -1,0 +1,8 @@
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/_catkin_empty_exported_target.dir
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/clean_test_results.dir
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/download_extra_data.dir
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/doxygen.dir
+/home/romesc/WRK/weight_express/build/adapy/gtest/CMakeFiles/gtest.dir
+/home/romesc/WRK/weight_express/build/adapy/gtest/CMakeFiles/gtest_main.dir
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/run_tests.dir
+/home/romesc/WRK/weight_express/build/adapy/CMakeFiles/tests.dir

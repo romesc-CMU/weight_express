@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/install
+
+Name: or_rviz
+Description: Description of or_rviz
+Version: 1.1.0
+Cflags: -I/home/romesc/WRK/weight_express/install/include
+Libs: -L/home/romesc/WRK/weight_express/install/lib -lor_rviz -lor_rviz_markers
+Requires: geometry_msgs interactive_markers std_msgs visualization_msgs

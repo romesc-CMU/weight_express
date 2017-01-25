@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/install
+
+Name: pr_ordata
+Description: Description of pr_ordata
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/install
+
+Name: manipulation2
+Description: Description of manipulation2
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/install/lib 
+Requires: 

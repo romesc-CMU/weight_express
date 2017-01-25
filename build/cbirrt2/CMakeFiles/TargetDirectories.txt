@@ -1,0 +1,9 @@
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/_catkin_empty_exported_target.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/cbirrt2_plugin.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/clean_test_results.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/download_extra_data.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/doxygen.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/gtest/CMakeFiles/gtest.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/gtest/CMakeFiles/gtest_main.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/run_tests.dir
+/home/romesc/WRK/weight_express/build/cbirrt2/CMakeFiles/tests.dir

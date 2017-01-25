@@ -1,0 +1,6 @@
+set(prpy_SETUP_PY_VERSION "0.3.0")
+set(prpy_SETUP_PY_SCRIPTS "")
+set(prpy_SETUP_PY_PACKAGES "prpy")
+set(prpy_SETUP_PY_PACKAGE_DIRS "src/prpy")
+set(prpy_SETUP_PY_MODULES "")
+set(prpy_SETUP_PY_MODULE_DIRS "")

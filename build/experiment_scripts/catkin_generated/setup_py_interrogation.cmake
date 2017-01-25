@@ -1,0 +1,6 @@
+set(experiment_scripts_SETUP_PY_VERSION "0.0.0")
+set(experiment_scripts_SETUP_PY_SCRIPTS "")
+set(experiment_scripts_SETUP_PY_PACKAGES "experiment_scripts")
+set(experiment_scripts_SETUP_PY_PACKAGE_DIRS "src/experiment_scripts")
+set(experiment_scripts_SETUP_PY_MODULES "")
+set(experiment_scripts_SETUP_PY_MODULE_DIRS "")

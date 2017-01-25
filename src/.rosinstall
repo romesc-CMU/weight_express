@@ -1,0 +1,9 @@
+- git: {local-name: experiment_scripts, uri: 'https://github.com/Stefanos19/experiment_scripts.git', version: weight_expressiveness}
+- git: {local-name: prpy, uri: 'https://github.com/personalrobotics/prpy.git', version: 7855e84ae36ddace58f1d7c2de1854d1948996bd}
+- git: {local-name: ada, uri: 'https://github.com/personalrobotics/ada.git', version: feature/weight_expressiveness}
+- git: {local-name: comps, uri: 'https://github.com/personalrobotics/comps.git', version: 1.0.0}
+- git: {local-name: pr-ordata, uri: 'https://github.com/personalrobotics/pr-ordata.git'}
+- git: {local-name: or_cdchomp, uri: 'https://github.com/personalrobotics/or_cdchomp.git', version: 4d7593dcfa81e50d05f4718166935588dd43880e}
+- git: {local-name: openrave_catkin, uri: 'https://github.com/personalrobotics/openrave_catkin.git'}
+- git: {local-name: or_rviz, uri: 'https://github.com/personalrobotics/or_rviz.git'}
+- git: {local-name: pr-ordata, uri: 'https://github.com/personalrobotics/pr-ordata.git'}

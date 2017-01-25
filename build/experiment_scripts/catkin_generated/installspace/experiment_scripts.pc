@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/install
+
+Name: experiment_scripts
+Description: Description of experiment_scripts
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/install/lib 
+Requires: message_runtime

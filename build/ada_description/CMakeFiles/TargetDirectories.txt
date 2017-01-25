@@ -1,0 +1,8 @@
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/_catkin_empty_exported_target.dir
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/clean_test_results.dir
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/download_extra_data.dir
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/doxygen.dir
+/home/romesc/WRK/weight_express/build/ada_description/gtest/CMakeFiles/gtest.dir
+/home/romesc/WRK/weight_express/build/ada_description/gtest/CMakeFiles/gtest_main.dir
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/run_tests.dir
+/home/romesc/WRK/weight_express/build/ada_description/CMakeFiles/tests.dir

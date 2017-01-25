@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/install
+
+Name: adapy
+Description: Description of adapy
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/install/lib 
+Requires: 

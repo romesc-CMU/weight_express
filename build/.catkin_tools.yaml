@@ -1,0 +1,6 @@
+devel_space: /home/romesc/WRK/weight_express/devel
+install: false
+install_space: /home/romesc/WRK/weight_express/install
+profile: default
+source_space: /home/romesc/WRK/weight_express/src
+workspace: /home/romesc/WRK/weight_express

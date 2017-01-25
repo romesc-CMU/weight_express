@@ -1,0 +1,40 @@
+[[36mexperiment_scripts[0m] [1m[34m==>[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /home/romesc/WRK/weight_express/devel
+-- Using CMAKE_PREFIX_PATH: /home/romesc/WRK/weight_express/devel;/opt/ros/indigo
+-- This workspace overlays: /home/romesc/WRK/weight_express/devel;/opt/ros/indigo
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/romesc/WRK/weight_express/build/experiment_scripts/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.18
+-- Using these message generators: gencpp;genlisp;genpy
+CMake Warning at /home/romesc/WRK/weight_express/build/experiment_scripts/cmake/experiment_scripts-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+Call Stack (most recent call first):
+  /opt/ros/indigo/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:12 (generate_messages)
+
+
+-- experiment_scripts: 0 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/romesc/WRK/weight_express/build/experiment_scripts
+[[36mexperiment_scripts[0m] [32m<==[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mexperiment_scripts[0m] [1m[34m==>[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts/build_env.sh /usr/bin/make --jobserver-fds=3,6 -j[0m' [30m[1min[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts[0m'[0m
+[35m[1mScanning dependencies of target experiment_scripts_generate_messages_py
+[0mBuilt target experiment_scripts_generate_messages_py
+[35m[1mScanning dependencies of target experiment_scripts_generate_messages_cpp
+[0mBuilt target experiment_scripts_generate_messages_cpp
+Built target experiment_scripts_data
+[35m[1mScanning dependencies of target experiment_scripts_generate_messages_lisp
+[0mBuilt target experiment_scripts_generate_messages_lisp
+Built target experiment_scripts_generate_messages
+[[36mexperiment_scripts[0m] [32m<==[0m '[1m/home/romesc/WRK/weight_express/build/experiment_scripts/build_env.sh /usr/bin/make --jobserver-fds=3,6 -j[0m' finished with return code '[1m0[0m'[0m

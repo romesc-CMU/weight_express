@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/devel
+
+Name: openrave_catkin
+Description: Description of openrave_catkin
+Version: 1.0.1
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/devel/lib 
+Requires: 

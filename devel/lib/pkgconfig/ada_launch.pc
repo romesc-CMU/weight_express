@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/devel
+
+Name: ada_launch
+Description: Description of ada_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/devel/lib 
+Requires: 

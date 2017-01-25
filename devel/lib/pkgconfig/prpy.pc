@@ -1,0 +1,8 @@
+prefix=/home/romesc/WRK/weight_express/devel
+
+Name: prpy
+Description: Description of prpy
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/romesc/WRK/weight_express/devel/lib 
+Requires: 

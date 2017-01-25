@@ -1,0 +1,149 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec841261137/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec841261137.dir/build.make CMakeFiles/cmTryCompileExec841261137.dir/build
+make[1]: Entering directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec841261137.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec841261137.dir/CheckSymbolExists.c.o   -c /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec841261137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec841261137.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec841261137.dir/CheckSymbolExists.c.o  -o cmTryCompileExec841261137 -rdynamic 
+CMakeFiles/cmTryCompileExec841261137.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec841261137] Error 1
+make[1]: Leaving directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec841261137/fast] Error 2
+
+File /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec978179666/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec978179666.dir/build.make CMakeFiles/cmTryCompileExec978179666.dir/build
+make[1]: Entering directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec978179666.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec978179666.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec978179666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec978179666.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec978179666.dir/CheckFunctionExists.c.o  -o cmTryCompileExec978179666 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec978179666] Error 1
+make[1]: Leaving directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec978179666/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1511593422/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1511593422.dir/build.make CMakeFiles/cmTryCompileExec1511593422.dir/build
+make[1]: Entering directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1511593422.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1511593422.dir/CheckSymbolExists.cxx.o -c /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1511593422.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1511593422/fast] Error 2
+
+File /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1573216041/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1573216041.dir/build.make CMakeFiles/cmTryCompileExec1573216041.dir/build
+make[1]: Entering directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1573216041.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1573216041.dir/CheckSymbolExists.cxx.o -c /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1573216041.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1573216041/fast] Error 2
+
+File /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1314842037/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1314842037.dir/build.make CMakeFiles/cmTryCompileExec1314842037.dir/build
+make[1]: Entering directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1314842037.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1314842037.dir/CheckSymbolExists.cxx.o -c /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1314842037.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1314842037/fast] Error 2
+
+File /home/romesc/WRK/weight_express/build/or_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

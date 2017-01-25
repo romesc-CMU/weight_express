@@ -1,0 +1,6 @@
+set(cbirrt2_SETUP_PY_VERSION "1.0.0")
+set(cbirrt2_SETUP_PY_SCRIPTS "")
+set(cbirrt2_SETUP_PY_PACKAGES "cbirrt2")
+set(cbirrt2_SETUP_PY_PACKAGE_DIRS "src/cbirrt2")
+set(cbirrt2_SETUP_PY_MODULES "")
+set(cbirrt2_SETUP_PY_MODULE_DIRS "")

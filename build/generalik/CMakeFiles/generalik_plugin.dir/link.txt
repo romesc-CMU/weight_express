@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,generalik_plugin.so -o /home/romesc/WRK/weight_express/devel/share/openrave-0.9/plugins/generalik_plugin.so CMakeFiles/generalik_plugin.dir/GeneralIKmain.cpp.o CMakeFiles/generalik_plugin.dir/GeneralIK.cpp.o  -L/usr/local/lib -lopenrave0.9 -lqhull -lnewmat -lboost_regex -lboost_system -Wl,-rpath,/usr/local/lib: 
